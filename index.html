@@ -13,48 +13,56 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;600;800&display=swap" rel="stylesheet">
     <!----------------------------------------------Botstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">--
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
     <!-----------------------------------------------Encabezado -->
     <header>
         <!--<img class="logo" src="./img/elm.gif" alt="" width="10%">-->
-            <nav>
-                <ul class="nav__links">
+        <nav>
+            <ul class="nav__links">
                 <li><a href="">Inicio</a></li>
-                <li><a href="">Acerca de mi</a></li>
-                <li><a href="">Escolaridad</a></li>
-                <li><a href="">Portafolio</a></li>
+                <li><a href="#about">Acerca de mi</a></li>
+                <li><a href="#studi">Escolaridad</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button>Contact</button></a>
     </header>
     <!-----------------------------------------Sección principal-->
-    <section id="estudio">
-        <h2>MI NOMBRE ES</h2>
+    <section>
+        <section class="home">
+        <br>
+        <h2 id="name">MI NOMBRE ES</h2>
         <h1>JUAN MANUEL
         <br/>
         VALADEZ GARCÍA</h1>
             <img id="perf"  src="./img/perfil.jpeg" alt="retrato">
-            <button>Contacto</button>
+            <br/>
+            <button id="contact">Contacto</button>
+            <br/>
+            <br>
             <h5>DISEÑADOR UI / UX</h5>
             <h5>DESARROLLADOR JAVA FULLSTACK</h5>
             <h5>TÉCNICO ESPECIALISTA EN APPLE</h5>
             <h5>DISEÑADOR GRAFICO</h5>
             <hr/>
-    </section>
+        </section>
         <section id="about"><!------------------------------------Acerca de mi-->
-            <h2>ACERCA DE MI</h2>
+        <h2>ACERCA DE MI</h2>
+            <br/>
             <p>
                 Diseñador gráfico con enfoque en la realización de sitios <br> que ejemplifiquen el uso correcto
                 de las técnicas Ux, Ui,<br> me apasiona el código y adaptarme a los nuevos lenguajes, <br> herramientas para la creación de sitios web interactivos y funcionales.
-            </p>        
+            </p>  
+            
+            
         </section>
         
-        <section id="estudio"> <!-------------------------------------Estudios-->
+        <!-------------------------------------Estudios-->
+        <section  id="studi">
             <h2>ESTUDIOS</h2>
-            <input type="">
-            <h3>Escolaridad</h3>
+        <br>
+        <h3>Escolaridad</h3>
             <ol>
                 <li>Diseño grafico | FES Acatlan</li>
                 <li>Developer FullStack | Generation Mx </li>
@@ -68,27 +76,25 @@
                 <li>Introduction to UI and UX Desing Course | CodeCademy</li>
                 <li>Diseño de la experiencia del usuario (UX) de Google | Corsuera</li>
             </ul>
-
         </section>
-        <hr>
-        <section id="about"> <!-------------------------------------Portafolio-->
+        <section id="portfolio"> <!-------------------------------------Portafolio-->
             <h2>PORTAFOLIO</h2>
-
+            <br>
             <h2>MacRepair</h2>
             <article>Mac Repair fue mi primer proyecto, en compañia de mis primos estblecimos en el 2012, nuestro primer negocio de reparación de computadoras.
                 dentro del cual desarrolle habilidades tanto técnicas como personales, para diriguirme y orientar un target en la busqueda de la solicuión para su equipo.  
             </article>
             <img src="./img/portmacrepair.jpeg" alt="portadamacrepair" width="1020px" height="400px">
-            <iframe width="520" height="400" frameborder="0"  id="gmap_canvas" src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5548388145603!2d-99.14320634943542!3d19.431630886820468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f836991cdf65%3A0x745910712a7be906!2sMacRepair!5e0!3m2!1ses-419!2smx!4v1661317932586!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <video src="./video/EnlaMother.mp4" controls ></video>
+            <iframe width="100%" height="auto" frameborder="0"  id="gmap_canvas" src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5548388145603!2d-99.14320634943542!3d19.431630886820468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f836991cdf65%3A0x745910712a7be906!2sMacRepair!5e0!3m2!1ses-419!2smx!4v1661317932586!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <!-------------------------------------Galeria EnLaMotherMX-->
             <h2>En La Mother MX</h2>
-            <article>En 2019 por la pandemia del Coronavirus la vida de todos cambio, al igual que la forma en la que se ejercia comercio
+            <p>En 2019 por la pandemia del Coronavirus la vida de todos cambio, al igual que la forma en la que se ejercia comercio
 
                 Como medida prevención sanitaria, opte por abrir mi proyecto personal, Servicio a Domicilio a empresas y usuarios con el fin de evitar lugares concurridos y poner en peligro tanto mi salud, como la de el usuario.
                 Este proyecto con ayuda de ustedes va creciendo poco a poco.
-            </article>
+            </p>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -139,17 +145,17 @@
             <article>Dentro de este servicio social bajo la Coordicación de Arquitectura y Diseño, en conjunto con el equipo de trabajo desarrollamos la imagen gráfica para un evento social "SigloBauHaus en Diseño Gráfico Acatlán" en el cual coordinamos Conferencias, Talleres, Actividades y Material para Redes Sociales y Recursos para el mismo evento.  </article>
             <video width="100%" poster="./img/port_credit.png" controls src="./video/animacion_creditos.mp4" atl="Creditos_conferencia_SBH"></video>   
         </section>
-            
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <footer class="seccion">
+        </section>
+        
+        <footer class="seccion" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="columna columna-25">
-                        <<img src="img/elm.gif" width="8%" class="logo-footer">En La Mother MX
+                        <img src="img/elm.gif" width="8%" class="logo-footer">En La Mother MX
+                        <h5> 
+                            Especialista en equipos Apple. 
+                        </h5>
                         <p>
-                        Especialista en equipos Apple. 
                         <br/>
                         Te ayudamos a resolver tus problemas, cotiza sin costo, escribenos por whats app 
                         <br/>Redacta una breve descripción del problema del equipo, "S/N" numero de serie y si lo crees conveniente una fotografia del problema
@@ -174,24 +180,27 @@
                             <li>juanmanuevaladez@gmail.com</li>
                             <li></li>
                             <li>5553344410</li>
-                            <li>Eje central Lazaro cardenas 3019,<br> CDMX, México</li>
+                            <li>Eje central Lazaro cardenas 3019, CDMX, México</li>
                         </ul>
                     </div>
                     <div class="columna columna-25">
                         <h3>
                             Redes Sociales
                         </h3>
+                        <br>
                         <ul class="redes">
                             <li>
+                                <a href="https://www.facebook.com/juanmanuvala/">
                                 <img src="./img/face.svg" alt="">ManuelVala
+                                </a>
                             </li>
                             <li>
-                                <a>
+                                <a href="https://www.instagram.com/enlamothermx/">
                                 <img src="./img/insta1.svg" alt="">EnLaMotherMX
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://github.com/ManuelVala">
                                 <img src="./img/github.svg" alt="">ManuelVala
                                 </a>
                             </li>
@@ -200,9 +209,13 @@
                 </div>
             </div>
             <div class="barra-footer">
-                &copy; EN LA MOTHER MX Derechos Reservados - 2022
+                &copy; EN LA MOTHER MX / ManuVala Derechos Reservados - 2022
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
     </body>
         
 
